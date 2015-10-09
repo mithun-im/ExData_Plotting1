@@ -1,6 +1,5 @@
-graphics.off()
-#dat                 <- read.table("household_power_consumption.txt",header=TRUE,sep=";")
-#datd                <- dat[dat$Date=="2/2/2007" | dat$Date=="1/2/2007",]
+dat                 <- read.table("household_power_consumption.txt",header=TRUE,sep=";")
+datd                <- dat[dat$Date=="2/2/2007" | dat$Date=="1/2/2007",]
 datd1               <- datd[!(datd$Sub_metering_1 == "?"),]
 datd2               <- datd[!(datd$Sub_metering_2 == "?"),]
 datd3               <- datd[!(datd$Sub_metering_3 == "?"),]
