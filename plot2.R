@@ -9,4 +9,8 @@ label_posn          <- c(1,1441,2881)
 plot(Global_Active_Power,ylab = "Global Active Power (kilowatts)",type = "l",xaxt="n",xlab="")
 axis(1, at=label_posn,labels=Week[label_posn],lty=1)
 dev.copy(png,file = "plot2.png")
+<<<<<<< HEAD
 dev.off()
+=======
+dev.off()
+>>>>>>> 9b0f1310bb89a0bd1768f815ff9d7a8dd4c99965
